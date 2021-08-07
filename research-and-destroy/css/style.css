@@ -1,0 +1,37 @@
+@import "meyer.css";
+@import "setup.css";
+@import "typography.css";
+@import "header.css";
+@import "ps-welcome.css";
+
+/* STRUCTURE */
+
+html {
+   background-color: darkgray;
+}
+
+section {
+   border: 3px solid red;
+   margin-top: 20px;
+}
+
+.inner-column {
+   display: block;
+   width: 95%;
+   max-width: 95%;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 10px;
+   border: 3px solid red;
+}
+
+picture.water {
+   background-image: url(images/water.webp);
+   max-width: 90px;
+   margin-left: 200px;
+}
+
+picture + p {
+   margin-left: 40px;
+}
+

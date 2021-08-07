@@ -1,0 +1,18 @@
+
+.loud-voice {
+   font-size: 40px;
+   letter-spacing: .03em;
+   color: ghostwhite;
+}
+
+.attention-voice {
+   font-size: 30px;
+   letter-spacing: .03em;
+   color: ghostwhite;
+}
+
+.soft-voice {
+	font-size: 20px;
+	letter-spacing: .03en;
+	color: ghostwhite;
+}

@@ -1,0 +1,125 @@
+
+@import "meyer.css";
+@import "setup.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Slabo+13px&display=swap');
+/* STRUCTURE */
+
+html {
+   background-color: darkslategray;
+}
+
+inner-column {
+   display: block;
+   width: 95%;
+   max-width: 1200px;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 10px;
+   /*border: 3px solid red;*/
+}
+
+mast-head {
+	display: block;
+	border: 3px solid #7D7F7D;
+	padding: 20px;
+}
+
+.loud-voice {
+	font-family: 'Slabo 13px', serif;
+	font-size: 60px;
+	color: #DFE3DF;
+}
+
+.attention-voice {
+	font-family: 'Slabo 13px', serif;
+	font-size: 38px;
+	color: #DFE3DF;
+}
+
+.soft-voice {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #DFE3DF;
+}
+
+.nav-voice {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #DFE3DF;
+}
+
+mast-head nav {
+	text-align: center;
+}
+
+.ic-welcome h1 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.ic-para {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	text-align: center;
+	padding: 20px;
+	line-height: 1.5;
+	letter-spacing: .03em;
+}
+
+.ic-welcome p {
+	padding: 20px;
+}
+
+footer {
+	border: 3px solid #7D7F7D;
+	padding: 10px;
+}	
+
+footer nav {
+	text-align: center;
+}
+
+code {
+	background-color: solid black;
+   border-radius: 3px;
+   font-family: courier, monospace;
+   padding: 0 3px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

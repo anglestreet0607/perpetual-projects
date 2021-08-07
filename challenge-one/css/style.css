@@ -1,0 +1,92 @@
+@import "meyer.css";
+@import "setup.css";
+
+@import url(‘https://fonts.googleapis.com/css2?family=Varela&display=swap’);
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+	background-color: #0f0315;
+}
+
+body {
+	color: #EFF1F3;
+	width: 100%;
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+
+inner-column.call-to-action {
+	padding: 10px;
+	text-align: center;
+	margin-top: 20px;
+	/*border: 3px solid red;*/
+}
+section.ps-projects {
+	border: 3px solid #EFF1F3 ;	
+}
+
+inner-column.projects {
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+
+inner-column.ic-contact {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h1.loud-voice {
+	text-align: center;
+}
+
+section.welcome {
+	max-width: 740px;
+	max-height: 740px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+picture.drop {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav a {
+	display: inline-block;
+	margin-right: 10px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	border: 2px solid #EFF1F3;
+	padding: 10px;
+}
+
+ol {
+	display: block;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+li {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+a.proj-nav {
+	text-decoration: underline;
+	margin-left: 25px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.ic-contact p {
+   display: inline-block;
+}

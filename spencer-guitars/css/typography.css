@@ -1,0 +1,105 @@
+
+
+.spencer-voice {
+   font-family: 'Courgette', cursive;
+   color: #E5E3E8;
+}
+
+.loud-voice {
+   font-family: 'Rokkitt', serif;
+   font-size: 70px;
+   color: #E5E3E8;
+   letter-spacing: .03em;
+}
+
+.attention-voice {
+   font-family: 'Roboto Condensed', sans-serif;
+   color: #E5E3E8;
+   font-size: 30px;
+   letter-spacing: .03em;
+   line-height: 1.5;
+}
+
+.soft-voice {
+   font-family: 'Roboto Condensed', sans-serif;
+   color: #E5E3E8; 
+   letter-spacing: .03em;
+   line-height: 1.5; 
+}
+
+.guitar-voice {
+   font-family: 'Rokkitt', serif;
+   font-size: 20px;
+   color: #1c1a1f; 
+   letter-spacing: .03em; 
+   padding: 10px;	
+   text-align: center;
+}
+
+.guitar-soft-voice {
+   font-family: 'Roboto Condensed', sans-serif;
+   color: #1c1a1f; 
+   letter-spacing: .03em;
+   padding: 10px;
+   margin-bottom: 10px;
+   text-decoration: underline;
+}
+
+.cta-attention-voice {
+   font-family: 'Rokkitt', serif;
+   font-size: 25px;
+   color: #E5E3E8; 
+   letter-spacing: .03em; 
+   padding: 10px; 
+   text-align: center;  
+}
+
+.cta-soft-voice {
+   font-family: 'Roboto Condensed', sans-serif;
+   color: #E5E3E8; 
+   letter-spacing: .03em;
+   line-height: 1.5; 
+   font-size: 18px;  
+}
+
+/* WORKBENCH.CSS TYPOGRAPHY */
+
+.bench-loud-voice {
+   font-family: 'Rokkitt', serif;
+   font-size: clamp(40px, 10vw, 70px);
+   color: #1c1a1f;
+   letter-spacing: .03em;   
+}
+
+.bench-attention-voice {
+   font-family: 'Rokkitt', serif;
+   font-size: clamp(18px, 10vw, 25px);
+   color: #1c1a1f; 
+   letter-spacing: .03em; 
+   padding: 10px; 
+   text-align: center;   
+}
+
+.bench-voice {
+   font-family: 'Rokkitt', serif;
+   font-size: clamp(16px, 10vw, 20px); 
+   color: #1c1a1f; 
+   letter-spacing: .03em; 
+   padding: 10px; 
+   text-align: center;   
+}
+
+.bench-soft-voice {
+   font-family: 'Roboto Condensed', sans-serif;
+   color: #1c1a1f; 
+   letter-spacing: .03em;
+   padding: 10px;
+   margin-bottom: 10px;
+   text-decoration: underline;  
+}
+
+
+
+
+
+
