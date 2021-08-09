@@ -1,0 +1,152 @@
+
+@import "meyer.css";
+@import "setup.css";
+@import "typography.css";
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+	background-color: lightgray;
+}
+
+body * {
+	/*border: 2px solid blue;*/
+}
+
+/* STRUCTURE */
+
+.inner-column {
+	max-width: 1000px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*  WELCOME SECTION  */
+
+.site-header {
+	background-color: #0f0215;
+	color: #EFF1F3;
+}
+
+.header-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loud-voice {
+	padding: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*  ABOUT SECTION  */
+
+.welcome {
+	background-color: #0f0215;
+	color: #EFF1F3;
+}
+
+.welcome-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.soft-voice {
+	padding: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*  ABOUT SECTION  */
+
+.about {
+	background-color: #0f0215;
+	color: #EFF1F3;
+	position: relative;	
+}
+
+.about-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;	
+}
+
+.attention-voice {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	text-decoration: underline;
+}
+
+.funny-shape {
+	display: none;
+}
+
+.yellow-shape {
+	display: none;
+}
+
+@media (min-width: 875px) {
+	.funny-shape {
+		display: block;
+		position: relative;
+		width: 300px;
+		left: 25px;
+		bottom: 300px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.funny-shape {
+		display: block;
+		position: relative;
+		width: 450px;
+		left: -120px;
+		bottom: 300px;
+	}
+}
+
+@media (min-width: 875px) {
+	.yellow-shape {
+		display: block;
+		position: relative;
+		width: 300px;
+		left: 650px;
+		bottom: 600px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.yellow-shape {
+		display: block;
+		position: relative;
+		width: 450px;
+		left: 650px;
+		bottom: 800px;
+	}
+}
+
+li {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+/*  FOOTER   */
+
+.site-footer {
+	background-color: #0f0215;
+	color: #EFF1F3;	
+}
+
+
+
+
+
+
+
+
+
