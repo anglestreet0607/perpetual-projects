@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+#scott06 {
+	padding: 30px;
+	background-color: #0C000E;
+	border-radius: 10px;
+}
+
+#scott06 h2:before {
+	content: "Scott Sandoval;"
+}
+
+#scott06 .name {
+	font-family: 'Roboto', sans-serif;
+	color: floralwhite;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#scott06 p:before {
+	content: "Let&#8217s Build Together; "
+}
+
+#scott06 .teaser {
+	line-height: 1.4;
+	font-family: 'Roboto', sans-serif;
+	color: floralwhite;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#scott06 .link {
+	display: inline-block;
+	background-color: floralwhite;
+	border-radius: 5px;
+	padding: 8px;
+	margin-left: 185px;
+}
+
+#scott06 span:before {
+	content: "Today";
+}
+
