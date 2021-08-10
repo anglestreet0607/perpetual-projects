@@ -7,19 +7,11 @@
 	border-radius: 10px;
 }
 
-#scott06 h2:before {
-	content: "Scott Sandoval;"
-}
-
 #scott06 .name {
 	font-family: 'Roboto', sans-serif;
 	color: floralwhite;
 	text-align: center;
 	text-decoration: underline;
-}
-
-#scott06 p:before {
-	content: "Let&#8217s Build Together; "
 }
 
 #scott06 .teaser {
@@ -39,7 +31,4 @@
 	margin-left: 185px;
 }
 
-#scott06 span:before {
-	content: "Today";
-}
 
