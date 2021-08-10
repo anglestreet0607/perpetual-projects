@@ -1,0 +1,107 @@
+
+@import "meyer.css";
+@import "setup.css";
+@import "typography.css";
+
+html {
+	background-color: wheat;
+}
+
+body * {
+	/*border: 2px solid blue;*/
+}
+
+/* STRUCTURE */
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.inner-column {
+	padding: 10px;
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px 14px;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+
+p {
+	font-size: 16px;
+	line-height: 1.4;
+	padding: 20px;
+	font-family: sans-serif;
+}
+
+p + p {
+	margin-top: 14px;
+
+}
+
+h1 + p {
+	margin-top: 14px;
+}
+
+/* HEADER */
+.site-header {
+	background-color: #3F7FBF;
+	position: sticky;
+	top: 0;
+	box-shadow: 0 2px 5px 0px rgba(0, 0, 0,.4);
+}
+
+.site-header .inner-column {
+	padding: 14px;
+}
+
+/* .SITE-SECTION */
+
+.page-content {
+	background-image: url(https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdW50YWluJTIwaW1hZ2VzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+	background-size: cover;
+	background-position: center center;
+	/*flex-grow: 1; /* true */*/
+}
+
+.page-header {
+	background-color: rgba(255, 255, 255, .2);
+}
+
+
+.about {
+	background-color: #7FBF3F;
+}
+
+.contact {
+	color: whitesmoke;
+}
+
+.about, .contact {
+	padding: 14px 14px;
+}
+
+.site-footer {
+	background-color: #282424;
+	color: whitesmoke;
+}
+
+@media (min-width: 700px) {
+	.contact {
+		background-color: transparent;
+	}
+}
+
