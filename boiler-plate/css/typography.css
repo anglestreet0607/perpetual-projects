@@ -3,6 +3,12 @@
 	font-size: clamp(30px, 10vw, 60px);
 }
 
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700;
+	}
+}
+
 .attention-voice {
 
 }
