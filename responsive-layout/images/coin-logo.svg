@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 446 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Artboard1" transform="matrix(0.371452,0,0,0.660289,0,0)">
+        <rect x="0" y="0" width="1200" height="630" style="fill:none;"/>
+        <g id="coin-logo" transform="matrix(2.63175,0,0,1.44768,-965.069,-251.275)">
+            <g transform="matrix(1.34334,0,0,1.34334,-131.128,-63.037)">
+                <ellipse cx="540.308" cy="319.628" rx="158.386" ry="136.027" style="fill:rgb(33,33,33);"/>
+            </g>
+            <g transform="matrix(0.999385,0.0358712,-0.0358691,0.999328,-33.5573,-62.2272)">
+                <g transform="matrix(0.838663,-0.544651,0.544651,0.838663,-103.96,343.992)">
+                    <text x="528.653px" y="347.473px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">s</text>
+                </g>
+                <g transform="matrix(0.956198,-0.29272,0.29272,0.956198,-72.7943,176.068)">
+                    <text x="551.919px" y="331.27px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">c</text>
+                </g>
+                <g transform="matrix(0.99483,-0.101557,0.101557,0.99483,-29.2941,61.8619)">
+                    <text x="592.914px" y="318.635px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">o</text>
+                </g>
+                <g transform="matrix(0.998703,0.0509213,-0.0509213,0.998703,16.8403,-32.0861)">
+                    <text x="638.123px" y="314.455px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">t</text>
+                </g>
+                <g transform="matrix(0.979991,0.19904,-0.19904,0.979991,76.4431,-127.852)">
+                    <text x="674.139px" y="316.29px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">t</text>
+                </g>
+                <g transform="matrix(0.952332,0.305062,-0.305062,0.952332,132.718,-200.887)">
+                    <text x="709.175px" y="324.239px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">&apos;</text>
+                </g>
+                <g transform="matrix(0.907272,0.420545,-0.420545,0.907272,203.05,-270.494)">
+                    <text x="714.901px" y="325.192px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">s</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,-59.8591,52.5178)">
+                <g transform="matrix(0.961318,-0.275441,0.275441,0.961318,-103.241,170.985)">
+                    <text x="557.14px" y="453.064px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">C</text>
+                </g>
+                <g transform="matrix(0.993898,-0.110308,0.110308,0.993898,-45.0161,68.6853)">
+                    <text x="598.263px" y="441.194px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">o</text>
+                </g>
+                <g transform="matrix(0.999999,0.00173061,-0.00173061,0.999999,0.756959,-1.11282)">
+                    <text x="643.399px" y="436.838px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">i</text>
+                </g>
+                <g transform="matrix(0.992117,0.125312,-0.125312,0.992117,59.9026,-80.2122)">
+                    <text x="667.528px" y="436.037px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">n</text>
+                </g>
+                <g transform="matrix(0.952563,0.304342,-0.304342,0.952563,169.182,-198.191)">
+                    <text x="720.356px" y="443.615px" style="font-family:'Herculanum';font-size:72px;fill:rgb(144,133,45);">s</text>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,-178.682,-89.5384)">
+                <text x="564.858px" y="481.631px" style="font-family:'Herculanum';font-size:96px;fill:rgb(144,133,45);">memor<tspan x="920.442px " y="481.631px ">y</tspan></text>
+            </g>
+        </g>
+    </g>
+</svg>

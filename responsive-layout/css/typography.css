@@ -1,0 +1,68 @@
+
+.loud-voice {
+	font-family: 'Prompt', sans-serif;
+	font-size: clamp(30px, 10vw, 60px);
+}
+
+@media (min-width: 600px) {
+	.loud-voice {
+		font-weight: 700;
+	}
+}
+
+.attention-voice {
+	font-family: 'Roboto', sans-serif;
+}
+
+.soft-voice {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	font-weight: 900;
+	letter-spacing: .03em;
+   line-height: 1.5;
+}
+
+.calm-voice {
+	font-family: 'Prompt', sans-serif;
+	font-size: 30px;
+	letter-spacing: .03em;
+}
+
+.whisper-voice {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: .03em;
+}
+
+.link-voice {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: .03em;
+   line-height: 1.5;	
+}
+
+.coin-smith + p {
+	max-width: 70ch;
+	padding: 40px;
+}
+
+h3.calm-voice {
+	padding: 20px;
+}
+
+h3 + p {
+	padding: 16px;
+}
+
+p + a {
+	padding: 16px;
+	text-decoration: underline;
+}
+
+@media (min-width: 1000px) {
+	.content p {
+		padding-bottom: 20px;
+	}
+}
