@@ -1,4 +1,6 @@
 
+/* <h1>, <h2>, <h3>, etc. */
+
 .loud-voice {
 	font-size: clamp(30px, 10vw, 60px);
 }
@@ -13,14 +15,28 @@
 
 }
 
-.soft-voice {
-
-}
-
 .calm-voice {
 	
 }
 
 .whisper-voice {
+
+}
+
+/* ANY OTHER CONTENT */
+
+.narrative-voice {
+
+}
+
+.article-voice {
+	
+}
+
+.link-voice {
+
+}
+
+.nav-voice {
 	
 }
