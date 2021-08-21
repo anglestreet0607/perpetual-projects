@@ -43,6 +43,31 @@
    line-height: 1.5;	
 }
 
+/*ARTICLE-CARD-VOICES*/
+
+.article-loud-voice {
+	font-family: 'Prompt', sans-serif;
+	font-size: 30px;
+	letter-spacing: .03em;	
+}
+
+.article-voice {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: .03em;
+   line-height: 1.5;	
+}
+
+.article-nav-voice {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: .03em;
+}
+
+/* ADJACENT-SELECTORS */
+
 .coin-smith + p {
 	max-width: 70ch;
 	padding: 40px;

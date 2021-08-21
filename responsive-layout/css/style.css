@@ -34,7 +34,7 @@ article-card {
 	padding: 16px;
 }
 
-.site-menu-flex {
+.header-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -55,6 +55,16 @@ article-card {
 
 .site-menu a {
 	padding: 10px;
+}
+
+@media (max-width: 533px) {
+	.header-container {
+		justify-content: center;
+	}
+
+	.site-menu {
+		justify-content: center;
+	}
 }
 
 /* SITE-WELCOME */
@@ -127,37 +137,6 @@ article-card {
 	opacity: 0.33;
 }
 
-/* SITE-GRID */
-
-.site-grid {
-	position: relative;
-	border: 1px solid black;
-}
-
-.site-grid-flex {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	background-color: rgb(255, 255, 255);
-	padding: 10px;
-	padding-bottom: 60px;
-}
-
-.coin-one, .coin-two, .coin-three {
-	border: 2px solid black;
-	border-radius: 10px;
-	padding: 10px;
-	margin-top: 10px;
-}
-
-.content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-bottom: 20px;
-}
-
 /* SITE-GRID-IMAGES */
 
 .trojan {
@@ -179,6 +158,80 @@ article-card {
 	border-radius: 50%;
 	overflow: hidden;
 	padding-top: 40px;
+}
+
+/* SITE-GRID */
+
+.site-grid {
+	position: relative;
+	border: 1px solid black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.article-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 10px;
+	padding: 10px;
+	padding-bottom: 20px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.card-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+/* BREAK POINT ONE */
+
+@media (min-width: 700px) {
+	.article-element {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.card-info {
+		padding: 20px;
+	}
+
+}
+
+/* BREAK POINT TWO */
+
+@media (min-width: 1000px) {
+	.site-grid .inner-column {
+		display: flex;
+	}
+
+	.article-element {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 10px;
+	}
+
+	.card-info {
+		display: inline-block;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.card-info .article-nav-voice {
+		background-color: black;
+		color: rgb(255, 255, 255);
+		border-radius: 10px;
+		text-align: center;
+	}
 }
 
 /* COG -- SITE-GRID SECTION */
@@ -208,77 +261,6 @@ article-card {
 		position: absolute;
 		right: -55px;
 		bottom: -70px;
-	}
-}
-
-/* BREAK POINT ONE */
-
-@media (min-width: 700px) {
-	.site-grid-flex {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-}
-
-@media (min-width: 700px) {
-	.content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		padding: 10px;
-	}
-}
-
-@media (min-width: 700px) {
-	.coin-one, .coin-two, .coin-three {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.trojan, .phoenix, .chess {
-		margin-bottom: 20px;
-	}
-
- 	p {
-		display: inline-block;
-	}
-}
-
-/* BREAK POINT TWO */
-
-@media (min-width: 1000px) {
-	.site-grid-flex {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-}
-
-@media (min-width: 1000px) {
-	.coin-one, .coin-two, .coin-three {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin: 10px;
-	}
-}
-
-@media (min-width: 1000px) {
-	.content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-}
-
-@media (min-width: 1000px) {
-	.content a {
-		background-color: black;
-		color: rgb(255, 255, 255);
-		border-radius: 10px;
-		text-align: center;
-		padding: 16px;
 	}
 }
 
