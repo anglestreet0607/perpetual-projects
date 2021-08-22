@@ -15,8 +15,10 @@ body * {
 	transition: background-color .5s;
 	border-radius: 10px;
 	box-shadow: -8px -5px 5px #a496c2;
-	/* working purposes */
-	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	min-width: 450px;
 
 }
 
@@ -50,8 +52,9 @@ body * {
 	border-radius: 5px;
 	padding: 10px;
 	margin-left: 185px;
-	position: relative;
-	right: 25px;
+	position: absolute;
+	left: 25px;
+	bottom: 10px;
 }
 
 
