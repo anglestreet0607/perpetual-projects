@@ -1,3 +1,12 @@
+
+* {
+   box-sizing: border-box;
+}
+
+
+body * {
+	/*border: 2px solid blue;*/
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 #scott06 {
@@ -6,7 +15,6 @@
 	transition: background-color .5s;
 	border-radius: 10px;
 	box-shadow: -8px -5px 5px #a496c2;
-	position: relative;
 	/* working purposes */
 	width: 450px;
 
@@ -42,9 +50,8 @@
 	border-radius: 5px;
 	padding: 10px;
 	margin-left: 185px;
-	position: absolute;
-	left: 8%;
-	bottom: 15px;
+	position: relative;
+	right: 25px;
 }
 
 
