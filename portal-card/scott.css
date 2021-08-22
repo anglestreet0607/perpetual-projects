@@ -3,9 +3,8 @@
    box-sizing: border-box;
 }
 
-
 body * {
-	/*border: 2px solid blue;*/
+	border: 2px solid blue;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -46,7 +45,7 @@ body * {
 }
 
 #scott06 .link {
-	display: inline-block;
+	/*display: inline-block;*/
 	background-color: floralwhite;
 	font-family: 'Roboto', sans-serif;
 	border-radius: 5px;
