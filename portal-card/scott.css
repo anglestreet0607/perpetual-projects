@@ -16,7 +16,7 @@ body * {
 	align-items: center;
 	padding: 30px;
 	background-color: #0C000E;
-	transition: background-color .5s;
+	transition: background-color 3s;
 	border-radius: 10px;
 	box-shadow: -8px -5px 5px #a496c2;
 	/*position: relative;*/
