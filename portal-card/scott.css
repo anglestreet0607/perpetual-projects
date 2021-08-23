@@ -4,7 +4,7 @@
 }
 
 body * {
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -20,7 +20,7 @@ body * {
 	border-radius: 10px;
 	box-shadow: -8px -5px 5px #a496c2;
 	/*position: relative;*/
-	min-width: 450px;
+	max-width: 420px;
 
 }
 
