@@ -11,10 +11,14 @@ html {
 }
 
 body * {
-	/*border: 2px solid blue;*/
+	border: 2px solid blue;
 }
 
 /* STRUCTURE */
+
+body {
+	height: 100vh;
+}
 
 .inner-column {
 	max-width: 1000px;
@@ -41,6 +45,13 @@ body * {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+
+@media (max-width: 550px) {
+	.loud-voice {
+		align-items: center;
+	}
+}
+
 
 /*  ABOUT SECTION  */
 
@@ -81,6 +92,14 @@ body * {
 	padding-bottom: 30px;
 	text-decoration: underline;
 }
+
+@media (max-width: 550px) {
+	.attention-voice {
+		text-align: center;
+	}
+}
+
+/*  SHAPES   SHAPES   */
 
 .funny-shape {
 	display: none;
@@ -130,6 +149,14 @@ body * {
 	}
 }
 
+/*   ORDERED LIST   */
+
+@media (max-width: 550px) {
+	ol {
+		text-align: center;
+	}
+}
+
 li {
 	padding-top: 40px;
 	padding-bottom: 30px;
@@ -137,10 +164,7 @@ li {
 
 /*  FOOTER   */
 
-.site-footer {
-	background-color: #0f0215;
-	color: #EFF1F3;	
-}
+
 
 
 
