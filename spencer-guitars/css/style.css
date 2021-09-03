@@ -59,17 +59,21 @@ a.soft-voice {
    padding: 14px;
 }
 
-@media (max-width: 500px) {
-   .site-menu {
-      display: none;
-   }
-}
-
-@media (max-width: 500px) {
+@media (max-width: 501px) {
    .site-header .inner-column {
       display: flex;
       justify-content: center;
       align-items: center;
+   }
+
+   .logo {
+      position: relative;
+      top: 40px;
+   }
+
+   .site-menu {
+      display: flex;
+      flex-direction: column;
    }
 }
 
@@ -164,6 +168,17 @@ span a {
    padding: 20px;
 }
 
+@media (max-width: 478px) {
+   .page-section-grid .inner-column {
+      display: flex;
+      justify-content: center;
+   }
+
+   .card {
+      max-width: 250px;
+   }
+}
+
 @media (max-width: 500px) {
    .media-box {
       display: none;
@@ -202,11 +217,15 @@ span a {
    margin-left: 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 501px) {
    .site-footer .inner-column {
       display: flex;
       justify-content: space-between;
       align-items: center;
+   }
+
+   .footer-logo {
+      display: none;
    }
 }
 

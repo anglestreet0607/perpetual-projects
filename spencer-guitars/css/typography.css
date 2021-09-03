@@ -12,6 +12,12 @@
    letter-spacing: .03em;
 }
 
+@media (max-width: 501px) {
+   .loud-voice {
+      font-size: 50px;
+   }
+}
+
 .attention-voice {
    font-family: 'Roboto Condensed', sans-serif;
    color: #E5E3E8;
