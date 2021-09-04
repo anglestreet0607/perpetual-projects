@@ -44,30 +44,24 @@ article-card {
 	color: white;
 }
 
-/*    SQUARE-SHP-SVG    */
-
-@media (max-width: 974px) {
-	.square {
-		display: none;
+@media (min-width: 974px) {
+	.page-landing {
+		background-image: url("../images/square-shp.svg");
+		background-repeat: no-repeat;
+		min-height: 48vh;
+		min-width: 120vw;
+		position: fixed;
+		top: 0;
+		left: -20px;
+		z-index: -4;
+		background-image: linear-gradient(70deg, 
+			rgba(0,0,0,.05) 0%, 
+			rgba(0,0,0,.05) 40%,
+			rgba(0,0,0,.03) 40%, 
+			rgba(0,0,0,.03) 50%, 
+			rgba(0,0,0,0) 50%, 
+			rgba(0,0,0,0) 100% );
 	}
-}
-
-.square {
-	background-image: url("../images/square-shp.svg");
-	background-repeat: no-repeat;
-	min-height: 48vh;
-	min-width: 120vw;
-	position: fixed;
-	top: 20px;
-	left: -20px;
-	z-index: -4;
-	background-image: linear-gradient(70deg, 
-		rgba(0,0,0,.05) 0%, 
-		rgba(0,0,0,.05) 40%,
-		rgba(0,0,0,.03) 40%, 
-		rgba(0,0,0,.03) 50%, 
-		rgba(0,0,0,0) 50%, 
-		rgba(0,0,0,0) 100% );
 }
 
 /*   PAGE-LANDING   PAGE-LANDING   */

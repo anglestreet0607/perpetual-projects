@@ -4,7 +4,7 @@
 }
 
 body * {
-	/*border: 2px solid blue;*/
+	border: 2px solid blue;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -18,13 +18,13 @@ body * {
 	background-color: #0C000E;
 	transition: background-color 3s;
 	border-radius: 10px;
-	box-shadow: -8px -5px 5px #a496c2;
-	/*position: relative;*/
+	/*box-shadow: -8px -5px 5px #a496c2;*/
+	position: relative;
 	max-width: 420px;
 }
 
 #scott06:hover {
-	background: linear-gradient(0.90turn, #5b3d7a, #73598e, #59377f, #4d237c,  #410f78,  #7d4ab7, #905bcc, #bd86fb, #130027);
+
 }
 
 #scott06 .name {
@@ -58,4 +58,21 @@ body * {
 	bottom: 10px;
 }
 
+picture {
+   display: block;
+}
+
+img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.funny-shape {
+	width: 90px;
+	position: absolute;
+	top: 0;
+	right: -25px;
+}
+/*linear-gradient(0.90turn, #5b3d7a, #73598e, #59377f, #4d237c,  #410f78,  #7d4ab7, #905bcc, #bd86fb, #130027);*/
 
